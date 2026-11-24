@@ -8,7 +8,7 @@
   </title>
   <link href="normalize.css" rel="stylesheet"/>
   <link href="slicknav.css" rel="stylesheet"/>
-  <link href="style.css?v=2" rel="stylesheet"/>
+  <link href="style.css?v=3" rel="stylesheet"/>
   <script defer="" src="jquery.min.js">
   </script>
   <script defer="" src="jquery.slicknav.min.js">
@@ -59,7 +59,7 @@
       </li>
       <li>
        <a href="gimi.html">
-        Gimi
+        Gemi
        </a>
       </li>
      </ul>
@@ -92,13 +92,21 @@
      <img alt="Nursultan" src="assets/nursultan.jpg"/>
     </aside>
     <section class="hero">
+     <div class="mission">
+      <h1>
+       Our mission
+      </h1>
+      <p>
+       We built Fieldwork to introduce our projects to people and organizations interested in using them or building with us. Each project starts with a specific problem. We share who it affects, how our software addresses it, and a way to explore the work firsthand.
+      </p>
+     </div>
      <p class="eyebrow">
       Featured project · Sherozbek Khodzhiev
      </p>
      <article>
-      <h1>
+      <h2>
        Andarak village archive
-      </h1>
+      </h2>
       <figure>
        <img alt="Sherozbek holding a painting of Andarak" src="assets/sheroz.jpg"/>
        <figcaption>
@@ -107,9 +115,6 @@
       </figure>
       <p class="intro">
        Explore Andarak through two languages, historical chapters, photographs and music.
-      </p>
-      <p>
-       Our portfolio brings together personal projects and hackathon demos. Follow a project from its first idea to the code behind it.
       </p>
       <p>
        <a href="andarak.html">
@@ -127,24 +132,20 @@
      Selected projects
     </h2>
     <div aria-label="Filter projects by author" class="filters">
-     <button aria-pressed="true">All</button>
-     <button aria-pressed="false">Sherozbek</button>
-     <button aria-pressed="false">Nursultan</button>
+     <button aria-pressed="true">
+      All
+     </button>
+     <button aria-pressed="false">
+      Sherozbek
+     </button>
+     <button aria-pressed="false">
+      Nursultan
+     </button>
     </div>
     <div class="grid">
-     <article data-owner="Sherozbek">
-      <a class="cover" href="andarak.html">
-       <div class="art andarak">
-        <span>
-         Andarak
-        </span>
-        <i>
-         Village archive
-        </i>
-       </div>
-      </a>
+     <article class="project-card" data-owner="Sherozbek">
       <small>
-       Sherozbek / Village archive
+       Local history · Sherozbek
       </small>
       <h3>
        <a href="andarak.html">
@@ -152,22 +153,12 @@
        </a>
       </h3>
       <p>
-       A bilingual journey through Andarak’s history, told through photographs, music and scroll-driven chapters.
+       Andarak brings the village’s history together in a bilingual archive. Readers can follow a historical chapter or browse photographs and listen to its accompanying music. The two languages give more families a way to explore and share the same stories.
       </p>
      </article>
-     <article data-owner="Nursultan">
-      <a class="cover" href="perla.html">
-       <div class="art perla">
-        <span>
-         PERLA
-        </span>
-        <i>
-         Virtual wardrobe
-        </i>
-       </div>
-      </a>
+     <article class="project-card" data-owner="Nursultan">
       <small>
-       Nursultan / Fashion technology
+       Fashion technology · Nursultan
       </small>
       <h3>
        <a href="perla.html">
@@ -175,22 +166,12 @@
        </a>
       </h3>
       <p>
-       A virtual fitting room that connects shoppers trying on looks with brands tracking demand.
+       PERLA helps shoppers decide whether a look suits them before they buy it. A virtual fitting room lets them explore different looks online. Brands can use interest in those looks to understand which styles shoppers want.
       </p>
      </article>
-     <article data-owner="Sherozbek">
-      <a class="cover" href="lotus.html">
-       <div class="art lotus">
-        <span>
-         LotusGuard
-        </span>
-        <i>
-         Learning journal
-        </i>
-       </div>
-      </a>
+     <article class="project-card" data-owner="Sherozbek">
       <small>
-       Sherozbek / Learning tools
+       Learning tools · Sherozbek
       </small>
       <h3>
        <a href="lotus.html">
@@ -198,24 +179,23 @@
        </a>
       </h3>
       <p>
-       A reflection tool for people who want to understand their habits while learning with AI.
+       LotusGuard helps students reflect on how they use AI while studying. During a shared screen session, it charts activity and saves a report for later review. Students can revisit the session and ask which ideas they can now explain on their own.
+      </p>
+     </article>
+     <article class="project-card" data-owner="Nursultan">
+      <small>
+       Personal styling · Nursultan
+      </small>
+      <h3>
+       <a href="gimi.html">
+        Gemi ↗
+       </a>
+      </h3>
+      <p>
+       Gemi helps people plan an outfit for a particular occasion and budget. Its AI stylist previews clothing on a personal photo and looks for options from real stores. This brings outfit planning and shopping into one place for someone deciding what to wear.
       </p>
      </article>
     </div>
-   </section>
-   <section>
-    <small>
-     Hackathon films
-    </small>
-    <h2>
-     Gimi
-    </h2>
-    <p>
-     Watch the team’s Gimi project demonstration.
-    </p>
-    <a class="button" href="gimi.html">
-     Watch Gimi →
-    </a>
    </section>
   </main>
   <footer>

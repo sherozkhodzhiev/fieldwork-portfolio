@@ -2,7 +2,7 @@
 
 ## Description
 
-Fieldwork is a shared portfolio for Sherozbek Khodzhiev and Nursultan Raimzhanov. It gives classmates and prospective collaborators a way to explore each developer’s projects, see the technologies involved and read the source.
+Fieldwork is a shared portfolio for Sherozbek Khodzhiev and Nursultan Raimzhanov. We built Fieldwork to introduce our projects to people and organizations interested in using them or building with us. Each project starts with a specific problem. We share who it affects, how our software addresses it, and a way to explore the work firsthand.
 
 [Open the live portfolio](https://sherozkhodzhiev.github.io/fieldwork-portfolio/)
 
@@ -34,7 +34,7 @@ Open the home page, select Explore projects and filter by Nursultan. Open PERLA 
 
 ## Project films
 
-LotusGuard, PERLA and Gimi each have a responsive YouTube player and a direct viewing link. Video playback requires internet access.
+LotusGuard, PERLA and Gemi each have a responsive YouTube player and a direct viewing link. Video playback requires internet access.
 
 ## Connection to the Town Hall exercise
 

@@ -1,10 +1,10 @@
 // A pressed filter always matches the set of visible project cards.
-const filters = document.querySelectorAll('button[aria-pressed]');
+const filters = document.querySelectorAll('button[data-filter]');
 for (const button of filters) {
   button.addEventListener('click', () => {
     for (const item of filters) item.setAttribute('aria-pressed', item === button);
     for (const card of document.querySelectorAll('[data-owner]')) {
-      card.hidden = button.textContent.trim() !== 'All' && card.dataset.owner !== button.textContent.trim();
+      card.hidden = button.dataset.filter !== 'All' && card.dataset.owner !== button.dataset.filter;
     }
   });
 }

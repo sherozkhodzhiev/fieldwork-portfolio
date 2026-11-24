@@ -38,4 +38,4 @@ LotusGuard, PERLA and Gemi each have a responsive YouTube player and a direct vi
 
 ## Connection to the Town Hall exercise
 
-The framed masthead and horizontal navigation introduce each page. The home page adapts the speaker directory into a developer sidebar alongside the mission, followed by a gallery of all four projects. The nested Projects list becomes a collapsible SlickNav menu on small screens. The class normalize.css and SlickNav files are included locally so navigation works after extracting the ZIP. The skills table adapts the luncheon table to connect technologies with projects.
+A sunflower-yellow masthead and cobalt navigation accents introduce each page. The home page adapts the speaker directory into a developer sidebar alongside the mission, followed by a gallery of all four projects. The nested Projects list becomes a collapsible SlickNav menu on small screens. The class normalize.css and SlickNav files are included locally so navigation works after extracting the ZIP. The skills table adapts the luncheon table to connect technologies with projects.

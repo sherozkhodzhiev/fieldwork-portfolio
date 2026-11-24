@@ -1,17 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About us | Fieldwork</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
-</head>
-<body>
-<header><a class="brand" href="index.html">Fieldwork<span>✳</span></a>
-<nav aria-label="Main"><a href="index.html#projects">Projects</a><a href="about.html">About us</a><a href="about.html#skills">Skills</a></nav></header>
-<main><section><p class="eyebrow">The people behind the projects</p><h1>About <em>us.</em></h1><p class="intro">We’re classmates who took what we learned building web pages into hackathons and personal projects. This is our place to share the results.</p>
-<div class="slide"><img id="portrait" src="assets/sheroz.jpg" alt="Sherozbek holding his artwork"><div aria-live="polite"><small id="counter">Profile 1 of 2</small><h2 id="name">Sherozbek Khodzhiev</h2><p id="bio">I’m interested in how a website can preserve a place and its stories. With Andarak, the photos, language and music are part of the experience.</p><a id="profile" href="https://github.com/sherozkhodzhiev">GitHub profile ↗</a></div></div><div class="filters"><button id="prev">← Previous</button><button id="next">Next profile →</button></div></section>
-<section id="skills"><h2>Skills in practice</h2><table><thead><tr><th>Technology</th><th>Where to see it</th></tr></thead><tbody><tr><td>React · FastAPI · MongoDB</td><td><a href="andarak.html">Andarak ↗</a></td></tr><tr><td>React · TypeScript · Tailwind CSS</td><td><a href="perla.html">PERLA ↗</a></td></tr><tr><td>HTML · CSS · JavaScript</td><td><a href="lotus.html">LotusGuard ↗</a></td></tr></tbody></table></section></main>
-<footer>Fieldwork <span>Sherozbek Khodzhiev &amp; Nursultan Raimzhanov</span></footer>
-</body></html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   About us | Fieldwork
+  </title>
+  <link href="normalize.css" rel="stylesheet"/>
+  <link href="slicknav.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="jquery.min.js">
+  </script>
+  <script defer="" src="jquery.slicknav.min.js">
+  </script>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body>
+  <header>
+   <a class="brand" href="index.html">
+    Fieldwork
+    <span>
+     ✳
+    </span>
+   </a>
+   <p>
+    Student project portfolio
+   </p>
+  </header>
+  <nav aria-label="Mobile navigation" id="mobile_menu">
+  </nav>
+  <nav aria-label="Main" class="class-nav">
+   <ul id="nav_menu">
+    <li>
+     <a href="index.html">
+      Home
+     </a>
+    </li>
+    <li>
+     <a href="index.html#projects">
+      Projects
+     </a>
+     <ul>
+      <li>
+       <a href="andarak.html">
+        Andarak
+       </a>
+      </li>
+      <li>
+       <a href="perla.html">
+        PERLA
+       </a>
+      </li>
+      <li>
+       <a href="lotus.html">
+        LotusGuard
+       </a>
+      </li>
+      <li>
+       <a href="gimi.html">
+        Gimi
+       </a>
+      </li>
+     </ul>
+    </li>
+    <li>
+     <a href="about.html">
+      About us
+     </a>
+    </li>
+    <li>
+     <a href="about.html#skills">
+      Skills
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <main>
+   <section>
+    <p class="eyebrow">
+     The people behind the projects
+    </p>
+    <h1>
+     About
+     <em>
+      us.
+     </em>
+    </h1>
+    <p class="intro">
+     We’re classmates who took what we learned building web pages into hackathons and personal projects. This is our place to share the results.
+    </p>
+    <div class="slide">
+     <img alt="Sherozbek holding his artwork" id="portrait" src="assets/sheroz.jpg"/>
+     <div aria-live="polite">
+      <small id="counter">
+       Profile 1 of 2
+      </small>
+      <h2 id="name">
+       Sherozbek Khodzhiev
+      </h2>
+      <p id="bio">
+       I’m interested in how a website can preserve a place and its stories. With Andarak, the photos, language and music are part of the experience.
+      </p>
+      <a href="https://github.com/sherozkhodzhiev" id="profile">
+       GitHub profile ↗
+      </a>
+     </div>
+    </div>
+    <div class="filters">
+     <button id="prev">
+      ← Previous
+     </button>
+     <button id="next">
+      Next profile →
+     </button>
+    </div>
+   </section>
+   <section id="skills">
+    <h2>
+     Skills in practice
+    </h2>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        Technology
+       </th>
+       <th>
+        Where to see it
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        React · FastAPI · MongoDB
+       </td>
+       <td>
+        <a href="andarak.html">
+         Andarak ↗
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        React · TypeScript · Tailwind CSS
+       </td>
+       <td>
+        <a href="perla.html">
+         PERLA ↗
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        HTML · CSS · JavaScript
+       </td>
+       <td>
+        <a href="lotus.html">
+         LotusGuard ↗
+        </a>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </section>
+   <figure>
+    <img alt="Sherozbek and Nursultan together" src="assets/team.jpg"/>
+    <figcaption>
+     From our team archive
+    </figcaption>
+   </figure>
+  </main>
+  <footer>
+   Fieldwork
+   <span>
+    Sherozbek Khodzhiev &amp; Nursultan Raimzhanov
+   </span>
+  </footer>
+ </body>
+</html>

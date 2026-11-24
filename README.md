@@ -15,7 +15,7 @@ Extract the entire ZIP and open index.html in a browser. Keep the assets folder 
 - HTML5 supplies semantic sections, individual project pages, a captioned photograph, navigation and a skills table.
 - CSS handles typography, the project cover designs and a grid that becomes one column on narrow screens.
 - JavaScript filters projects by author and moves between the two profile slides. Each slide updates the portrait, biography and GitHub link together.
-- The design builds on the Town Hall class exercise through linked pages, image assets, separate stylesheets and responsive navigation. The portfolio uses native browser JavaScript.
+- The design builds on the Town Hall class exercise through linked pages, image assets, separate stylesheets and responsive navigation. The portfolio uses native JavaScript for filters and profiles. The mobile menu uses the class SlickNav plugin and a local copy of jQuery.
 
 ## Team members and featured work
 
@@ -35,3 +35,7 @@ Open the home page, select Explore projects and filter by Nursultan. Open PERLA 
 ## Project films
 
 LotusGuard, PERLA and Gimi each have a responsive YouTube player and a direct viewing link. Video playback requires internet access.
+
+## Connection to the Town Hall exercise
+
+The framed masthead and horizontal navigation introduce each page. The home page adapts the speaker directory into a developer sidebar and the featured speaker into a featured project article with an image and a detail link. The nested Projects list becomes a collapsible SlickNav menu on small screens. The class normalize.css and SlickNav files are included locally so navigation works after extracting the ZIP. The skills table adapts the luncheon table to connect technologies with projects.

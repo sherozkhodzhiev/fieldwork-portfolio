@@ -1,16 +1,234 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Student project portfolio | Fieldwork</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
-</head>
-<body>
-<header><a class="brand" href="index.html">Fieldwork<span>✳</span></a>
-<nav aria-label="Main"><a href="index.html#projects">Projects</a><a href="about.html">About us</a><a href="about.html#skills">Skills</a></nav></header>
-<main><section class="hero"><div><p class="eyebrow">Sherozbek &amp; Nursultan / Student portfolio</p><h1>Our project<br><em>fieldnotes.</em></h1><p class="intro">A village archive, a virtual wardrobe and a learning journal. Explore what we build, how it works and the code behind it.</p><a class="button" href="#projects">Explore projects ↓</a></div><figure><img src="assets/team.jpg" alt="Sherozbek and Nursultan together"><figcaption>From the team archive</figcaption></figure></section>
-<section id="projects"><h2>Selected projects</h2><div class="filters" aria-label="Filter projects by author"><button aria-pressed="true">All</button><button aria-pressed="false">Sherozbek</button><button aria-pressed="false">Nursultan</button></div><div class="grid"><article data-owner="Sherozbek"><a class="cover" href="andarak.html"><div class="art andarak"><span>Andarak</span><i>Village archive</i></div></a><small>Sherozbek / Village archive</small><h3><a href="andarak.html">Andarak ↗</a></h3><p>A bilingual journey through Andarak’s history, told through photographs, music and scroll-driven chapters.</p></article><article data-owner="Nursultan"><a class="cover" href="perla.html"><div class="art perla"><span>PERLA</span><i>Virtual wardrobe</i></div></a><small>Nursultan / Fashion technology</small><h3><a href="perla.html">PERLA ↗</a></h3><p>A virtual fitting room that connects shoppers trying on looks with brands tracking demand.</p></article><article data-owner="Sherozbek"><a class="cover" href="lotus.html"><div class="art lotus"><span>LotusGuard</span><i>Learning journal</i></div></a><small>Sherozbek / Learning tools</small><h3><a href="lotus.html">LotusGuard ↗</a></h3><p>A reflection tool for people who want to understand their habits while learning with AI.</p></article></div></section><section><small>Hackathon films</small><h2>Gimi</h2><p>Watch the team’s Gimi project demonstration.</p><a class="button" href="gimi.html">Watch Gimi →</a></section></main>
-<footer>Fieldwork <span>Sherozbek Khodzhiev &amp; Nursultan Raimzhanov</span></footer>
-</body></html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Student project portfolio | Fieldwork
+  </title>
+  <link href="normalize.css" rel="stylesheet"/>
+  <link href="slicknav.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="jquery.min.js">
+  </script>
+  <script defer="" src="jquery.slicknav.min.js">
+  </script>
+  <script defer="" src="app.js">
+  </script>
+ </head>
+ <body>
+  <header>
+   <a class="brand" href="index.html">
+    Fieldwork
+    <span>
+     ✳
+    </span>
+   </a>
+   <p>
+    Student project portfolio
+   </p>
+  </header>
+  <nav aria-label="Mobile navigation" id="mobile_menu">
+  </nav>
+  <nav aria-label="Main" class="class-nav">
+   <ul id="nav_menu">
+    <li>
+     <a href="index.html">
+      Home
+     </a>
+    </li>
+    <li>
+     <a href="index.html#projects">
+      Projects
+     </a>
+     <ul>
+      <li>
+       <a href="andarak.html">
+        Andarak
+       </a>
+      </li>
+      <li>
+       <a href="perla.html">
+        PERLA
+       </a>
+      </li>
+      <li>
+       <a href="lotus.html">
+        LotusGuard
+       </a>
+      </li>
+      <li>
+       <a href="gimi.html">
+        Gimi
+       </a>
+      </li>
+     </ul>
+    </li>
+    <li>
+     <a href="about.html">
+      About us
+     </a>
+    </li>
+    <li>
+     <a href="about.html#skills">
+      Skills
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <main>
+   <div class="class-layout">
+    <aside class="directory">
+     <h2>
+      Developers
+     </h2>
+     <a href="about.html">
+      Sherozbek Khodzhiev
+     </a>
+     <img alt="Sherozbek" src="assets/sheroz.jpg"/>
+     <a href="about.html#nursultan">
+      Nursultan Raimzhanov
+     </a>
+     <img alt="Nursultan" src="assets/nursultan.jpg"/>
+    </aside>
+    <section class="hero">
+     <p class="eyebrow">
+      Featured project · Sherozbek Khodzhiev
+     </p>
+     <article>
+      <h1>
+       Andarak village archive
+      </h1>
+      <figure>
+       <img alt="Sherozbek holding a painting of Andarak" src="assets/sheroz.jpg"/>
+       <figcaption>
+        Sherozbek with his Andarak artwork
+       </figcaption>
+      </figure>
+      <p class="intro">
+       Explore Andarak through two languages, historical chapters, photographs and music.
+      </p>
+      <p>
+       Our portfolio brings together personal projects and hackathon demos. Follow a project from its first idea to the code behind it.
+      </p>
+      <p>
+       <a href="andarak.html">
+        Read about Andarak →
+       </a>
+      </p>
+      <a class="button" href="#projects">
+       Explore projects ↓
+      </a>
+     </article>
+    </section>
+   </div>
+   <section id="projects">
+    <h2>
+     Selected projects
+    </h2>
+    <div aria-label="Filter projects by author" class="filters">
+     <button aria-pressed="true">
+      All
+     </button>
+     <button aria-pressed="false">
+      Sherozbek
+     </button>
+     <button aria-pressed="false">
+      Nursultan
+     </button>
+    </div>
+    <div class="grid">
+     <article data-owner="Sherozbek">
+      <a class="cover" href="andarak.html">
+       <div class="art andarak">
+        <span>
+         Andarak
+        </span>
+        <i>
+         Village archive
+        </i>
+       </div>
+      </a>
+      <small>
+       Sherozbek / Village archive
+      </small>
+      <h3>
+       <a href="andarak.html">
+        Andarak ↗
+       </a>
+      </h3>
+      <p>
+       A bilingual journey through Andarak’s history, told through photographs, music and scroll-driven chapters.
+      </p>
+     </article>
+     <article data-owner="Nursultan">
+      <a class="cover" href="perla.html">
+       <div class="art perla">
+        <span>
+         PERLA
+        </span>
+        <i>
+         Virtual wardrobe
+        </i>
+       </div>
+      </a>
+      <small>
+       Nursultan / Fashion technology
+      </small>
+      <h3>
+       <a href="perla.html">
+        PERLA ↗
+       </a>
+      </h3>
+      <p>
+       A virtual fitting room that connects shoppers trying on looks with brands tracking demand.
+      </p>
+     </article>
+     <article data-owner="Sherozbek">
+      <a class="cover" href="lotus.html">
+       <div class="art lotus">
+        <span>
+         LotusGuard
+        </span>
+        <i>
+         Learning journal
+        </i>
+       </div>
+      </a>
+      <small>
+       Sherozbek / Learning tools
+      </small>
+      <h3>
+       <a href="lotus.html">
+        LotusGuard ↗
+       </a>
+      </h3>
+      <p>
+       A reflection tool for people who want to understand their habits while learning with AI.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section>
+    <small>
+     Hackathon films
+    </small>
+    <h2>
+     Gimi
+    </h2>
+    <p>
+     Watch the team’s Gimi project demonstration.
+    </p>
+    <a class="button" href="gimi.html">
+     Watch Gimi →
+    </a>
+   </section>
+  </main>
+  <footer>
+   Fieldwork
+   <span>
+    Sherozbek Khodzhiev &amp; Nursultan Raimzhanov
+   </span>
+  </footer>
+ </body>
+</html>

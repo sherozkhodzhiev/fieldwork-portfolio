@@ -4,7 +4,7 @@ for (const button of filters) {
   button.addEventListener('click', () => {
     for (const item of filters) item.setAttribute('aria-pressed', item === button);
     for (const card of document.querySelectorAll('[data-owner]')) {
-      card.hidden = button.textContent !== 'All' && card.dataset.owner !== button.textContent;
+      card.hidden = button.textContent.trim() !== 'All' && card.dataset.owner !== button.textContent.trim();
     }
   });
 }
@@ -30,3 +30,8 @@ if (next) {
   next.addEventListener('click', () => changeProfile(1));
   document.querySelector('#prev').addEventListener('click', () => changeProfile(-1));
 }
+
+// Town Hall's SlickNav menu reuses the desktop list at the mobile breakpoint.
+jQuery('#nav_menu').slicknav({ prependTo: '#mobile_menu', label: 'Menu' });
+
+if (next && window.location.hash === '#nursultan') next.click();

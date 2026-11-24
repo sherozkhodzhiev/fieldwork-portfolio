@@ -4,6 +4,8 @@
 
 Fieldwork is a shared portfolio for Sherozbek Khodzhiev and Nursultan Raimzhanov. It gives classmates and prospective collaborators a way to explore each developer’s projects, see the technologies involved and read the source.
 
+[Open the live portfolio](https://sherozkhodzhiev.github.io/fieldwork-portfolio/)
+
 ## How to run
 
 Extract the entire ZIP and open index.html in a browser. Keep the assets folder beside the HTML files. The portfolio runs locally without installation or an account. External GitHub links require internet access.

@@ -33,7 +33,6 @@ h3 { font-size: clamp(29px,3.2vw,44px); }
 .directory h2 { grid-column: span 2; font: 600 12px monospace; text-transform: uppercase; letter-spacing: .08em; }
 .directory img { grid-row: 2; width: 100%; aspect-ratio: 4/5; object-fit: cover; border: 5px solid var(--blue); }
 .directory a { grid-row: 3; color: var(--ink); font-weight: 700; font-size: 15px; }
-.directory img:last-child { transform: rotate(3deg); }
 #projects,#skills { padding: 32px 0 52px; border-top: 2px solid var(--ink); }
 .filters { flex-wrap: wrap; margin: 18px 0 26px; }
 .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }

@@ -2,40 +2,59 @@
 
 ## Description
 
-Fieldwork is a shared portfolio for Sherozbek Khodzhiev and Nursultan Raimzhanov. We built Fieldwork to introduce our projects to people and organizations interested in using them or building with us. Each project starts with a specific problem. We share who it affects, how our software addresses it, and a way to explore the work firsthand.
+Fieldwork presents four projects by Sherozbek Khodzhiev and Nursultan Raimzhanov. We built it for our Front-End Web Application Development final so classmates and potential collaborators could see what each application does, who built it, and which problem it addresses. Visitors can explore a village archive (Andarak), a virtual fitting room (PERLA), an AI study reflection tool (LotusGuard), and a personal stylist (Gemi).
+
+## Tech Stack Used
+
+| Technology or tool | Use in Fieldwork |
+| --- | --- |
+| HTML5 | Page structure, navigation, portraits, the skills table, and embedded project videos |
+| CSS3 and Normalize.css | Consistent styling, responsive grids, and layouts for desktop and mobile |
+| JavaScript | Project filtering, profile switching, and the active navigation indicator |
+| jQuery and SlickNav | The collapsible mobile menu adapted from the Town Hall class exercise |
+| GitHub and GitHub Pages | Source repository and public hosting |
+
+## Features
+
+- **Project gallery.** Filter by developer and select **Read more** on any card to open its project page.
+- **Project demonstrations.** Watch the PERLA, LotusGuard, and Gemi videos on their pages or follow the direct YouTube links.
+- **Developer profiles.** Switch between team members on the About us page to see each person’s portrait, biography, and GitHub profile.
+- **Skills in practice.** Follow any row in the skills table to see the project that uses those technologies or capabilities.
+- **Responsive navigation.** The desktop navigation highlights the current section and becomes a collapsible menu on phones.
+
+## How to Run the Project
 
 [Open the live portfolio](https://sherozkhodzhiev.github.io/fieldwork-portfolio/)
 
-## How to run
+1. To run a local copy, download and extract the entire source ZIP.
+2. Open the extracted project folder and double-click `index.html`. Keep the HTML files, stylesheets, scripts, and `assets` folder together.
+3. Select **Explore projects**, choose a developer, and open **Read more** to try the gallery.
 
-Extract the entire ZIP and open index.html in a browser. Keep the assets folder beside the HTML files. The portfolio runs locally without installation or an account. External GitHub links require internet access.
+The portfolio runs directly in a browser without installation, a server, or an account. Internet access is required for YouTube videos and external GitHub links.
 
-## Portfolio technologies and features
+## Screenshots
 
-- HTML5 supplies semantic sections, individual project pages, developer portraits, navigation and a skills table.
-- CSS handles typography, the project cover designs and a grid that becomes one column on narrow screens.
-- JavaScript filters projects by author and moves between the two profile slides. Each slide updates the portrait, biography and GitHub link together.
-- The design builds on the Town Hall class exercise through linked pages, image assets, separate stylesheets and responsive navigation. The portfolio uses native JavaScript for filters and profiles. The mobile menu uses the class SlickNav plugin and a local copy of jQuery.
+The homepage introduces both developers beside the mission and leads into the project gallery.
 
-## Team members and featured work
+![Fieldwork homepage with framed navigation, developer portraits, and project filters](https://raw.githubusercontent.com/sherozkhodzhiev/fieldwork-portfolio/main/assets/homepage.jpg)
 
-- Sherozbek Khodzhiev — portfolio concept, project brief and team photographs. Featured work includes [Andarak](https://github.com/sherozkhodzhiev/andarak-website) and [LotusGuard](https://github.com/sherozkhodzhiev/lotusguard).
-- Nursultan Raimzhanov — featured developer of [PERLA](https://github.com/theraimzhanov/perla-virtual-wardrobe), a fashion discovery and virtual wardrobe project.
+The source ZIP also includes this screenshot at `assets/homepage.jpg` for offline viewing.
 
-The project descriptions and skill listings draw on the linked repositories. Portfolio implementation and initial copy were prepared with Codex assistance. Each student should record their actual implementation, review and presentation contributions before submission.
+## Team Members
 
-## Challenges and learning
+| Team member | Contributions and featured work |
+| --- | --- |
+| Sherozbek Khodzhiev | Defined the portfolio brief, supplied photographs and demo links, and directed revisions to the navigation, gallery, and portraits. His featured projects are Andarak and LotusGuard. |
+| Nursultan Raimzhanov | Developer represented by the PERLA and Gemi project demonstrations. His profile connects visitors to his work on GitHub. |
 
-Keeping each person’s projects identifiable on a small screen shaped the design. The project grid stacks on phones, while author filters retain the same controls. The profile slideshow keeps related information in one record so switching a portrait also switches its profile link. Relative paths keep local photos and linked pages usable after extraction.
+The portfolio implementation and initial copy were prepared with Codex assistance.
 
-## Demo walkthrough
+## Challenges & Learning
 
-Open the home page, select Explore projects and filter by Nursultan. Open PERLA and follow its source link. Return to About us, switch profiles, and use the skills table to open Andarak. Finish by demonstrating the layout at a narrow browser width.
+- **Adapting the class layout.** The Town Hall exercise linked speaker profiles from a directory. Fieldwork applies that pattern to developer profiles and project pages. The same navigation list supplies the desktop tabs and mobile menu, so a change to a link carries across screen sizes.
+- **Keeping profile details together.** Each profile stores its portrait, biography, and GitHub link in one JavaScript record. Switching profiles updates all three together and keeps each link paired with the correct person.
+- **Supporting offline grading.** Relative file paths and bundled scripts let the extracted ZIP load portraits, switch profiles, and filter projects locally. Embedded videos still need an internet connection.
 
-## Project films
+## Future Improvements
 
-LotusGuard, PERLA and Gemi each have a responsive YouTube player and a direct viewing link. Video playback requires internet access.
-
-## Connection to the Town Hall exercise
-
-A sunflower-yellow masthead and cobalt navigation accents introduce each page. The home page adapts the speaker directory into a developer sidebar alongside the mission, followed by a gallery of all four projects. The nested Projects list becomes a collapsible SlickNav menu on small screens. The class normalize.css and SlickNav files are included locally so navigation works after extracting the ZIP. The skills table adapts the luncheon table to connect technologies with projects.
+As the gallery grows, a technology filter could help visitors find projects that use a particular tool. Written transcripts alongside the project videos would also let visitors follow each demonstration without audio.

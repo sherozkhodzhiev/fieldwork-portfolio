@@ -60,3 +60,21 @@ footer { border-top: 2px solid var(--ink); padding-block: 18px; font-size: 13px;
   .slide img { max-width: 300px; }
   header p { text-align: right; }
 }
+
+/* A shared frame joins the masthead to the four navigation tabs. */
+header {
+  margin-top: 12px;
+  padding: clamp(16px,2.4vw,36px);
+  border: 2px solid var(--blue);
+  border-bottom: 0;
+  background: linear-gradient(32deg, #ffbc24 8%, #ffd953 34%, #fffbea 50%, #ffe58a 65%, #ffca2d 90%);
+}
+.class-nav, #mobile_menu { border: 2px solid var(--blue); background: var(--blue); }
+#nav_menu { gap: 0; }
+#nav_menu > li { flex: 1; text-align: center; }
+#nav_menu > li + li { border-left: 1px solid #ffffff65; }
+#nav_menu > li > a { padding: 13px 6px; color: white; }
+#nav_menu > li > a[aria-current], .slicknav_nav a[aria-current] { color: var(--sun); text-decoration: underline; text-underline-offset: 5px; }
+#nav_menu > li > a:hover, #nav_menu > li > a:focus-visible { background: #102fa5; }
+#nav_menu ul { left: 0; right: 0; text-align: left; }
+@media(max-width:700px) { #mobile_menu { width: min(90%,1180px); margin-inline: auto; } }

@@ -35,3 +35,17 @@ if (next) {
 jQuery('#nav_menu').slicknav({ prependTo: '#mobile_menu', label: 'Menu' });
 
 if (next && window.location.hash === '#nursultan') next.click();
+
+// Highlight the current section in both the desktop list and its mobile copy.
+function updateNavigation() {
+  const file = location.pathname.split('/').pop() || 'index.html';
+  let destination = 'index.html#projects';
+  if (file === 'index.html' && location.hash !== '#projects') destination = 'index.html';
+  if (file === 'about.html') destination = location.hash === '#skills' ? 'about.html#skills' : 'about.html';
+  for (const link of document.querySelectorAll('nav a[href]')) {
+    if (link.getAttribute('href') === destination) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  }
+}
+updateNavigation();
+window.addEventListener('hashchange', updateNavigation);

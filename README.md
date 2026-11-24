@@ -45,7 +45,7 @@ The source ZIP also includes this screenshot at `assets/homepage.jpg` for offlin
 | Team member | Contributions and featured work |
 | --- | --- |
 | Sherozbek Khodzhiev | Defined the portfolio brief, supplied photographs and demo links, and directed revisions to the navigation, gallery, and portraits. His featured projects are Andarak and LotusGuard. |
-| Nursultan Raimzhanov | Developer represented by the PERLA and Gemi project demonstrations. His profile connects visitors to his work on GitHub. |
+| Nursultan Raimzhanov | Built and tested PERLA and Gemi. His profile connects visitors to his work on GitHub. |
 
 The portfolio implementation and initial copy were prepared with Codex assistance.
 

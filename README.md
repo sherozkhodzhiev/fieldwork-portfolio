@@ -43,12 +43,12 @@ The source ZIP also includes this screenshot at `assets/homepage.jpg` for offlin
 
 ## Team Members
 
-| Team member | Contributions and featured work |
-| --- | --- |
-| Sherozbek Khodzhiev | Defined the portfolio brief, supplied photographs and demo links, and directed revisions to the navigation, gallery, and portraits. His featured projects are Andarak and LotusGuard. |
-| Nursultan Raimzhanov | Built and tested PERLA and Gemi. His profile connects visitors to his work on GitHub. |
+We built Fieldwork together for our Front-End Web Application Development final.
 
-The portfolio implementation and initial copy were prepared with Codex assistance.
+| Team member | Contribution to Fieldwork |
+| --- | --- |
+| Sherozbek Khodzhiev | Wrote the website code and designed the page layouts, navigation, and project cards. |
+| Nursultan Raimzhanov | Proposed the idea for Fieldwork and helped define how visitors would explore projects and discover the skills behind them. |
 
 ## Challenges & Learning
 
@@ -58,4 +58,6 @@ The portfolio implementation and initial copy were prepared with Codex assistanc
 
 ## Future Improvements
 
-As the gallery grows, a technology filter could help visitors find projects that use a particular tool. Written transcripts alongside the project videos would also let visitors follow each demonstration without audio.
+- **AI chatbot assistant.** Visitors could ask a question in their own words and get an answer with a link to the relevant page.
+- **Technology filter.** Visitors could select a skill such as React to see every project that uses it.
+- **Developer editing.** Developers could sign in to manage their submissions. A database would let the team publish approved projects directly to the gallery without editing HTML.

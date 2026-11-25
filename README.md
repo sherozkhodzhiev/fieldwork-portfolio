@@ -12,7 +12,7 @@ Fieldwork presents four projects by Sherozbek Khodzhiev and Nursultan Raimzhanov
 | CSS3 and Normalize.css | Consistent styling, responsive grids, and layouts for desktop and mobile |
 | JavaScript | Project filtering, profile switching, and the active navigation indicator |
 | jQuery and SlickNav | The collapsible mobile menu adapted from the Town Hall class exercise |
-| GitHub and GitHub Pages | Source repository and public hosting |
+| GitHub and GitHub Pages | Source repository, public hosting, and project requests through GitHub Issues |
 
 ## Features
 
@@ -20,6 +20,7 @@ Fieldwork presents four projects by Sherozbek Khodzhiev and Nursultan Raimzhanov
 - **Project demonstrations.** Watch the PERLA, LotusGuard, and Gemi videos on their pages or follow the direct YouTube links.
 - **Developer profiles.** Switch between team members on the About us page to see each person’s portrait, biography, and GitHub profile.
 - **Skills in practice.** Follow any row in the skills table to see the project that uses those technologies or capabilities.
+- **Join us.** After Skills on the About us page, visitors can request a project review. The GitHub form asks for a project name, a description of the work and the applicant’s contribution, a repository link, and a YouTube demo. Both the request and the team’s reply are public. The team reviews submissions and publishes selected projects manually.
 - **Responsive navigation.** The desktop navigation highlights the current section and becomes a collapsible menu on phones.
 
 ## How to Run the Project
@@ -30,7 +31,7 @@ Fieldwork presents four projects by Sherozbek Khodzhiev and Nursultan Raimzhanov
 2. Open the extracted project folder and double-click `index.html`. Keep the HTML files, stylesheets, scripts, and `assets` folder together.
 3. Select **Explore projects**, choose a developer, and open **Read more** to try the gallery.
 
-The portfolio runs directly in a browser without installation, a server, or an account. Internet access is required for YouTube videos and external GitHub links.
+The portfolio runs directly in a browser without installation, a server, or an account. Videos and external links require internet access. To submit a project, open **About us → Join us → Request to join on GitHub**, sign in to GitHub, complete the form, and submit the issue.
 
 ## Screenshots
 

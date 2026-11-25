@@ -1,0 +1,31 @@
+name: Join Fieldwork
+description: Share your project with the Fieldwork team for review.
+title: "Join request — "
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What did you build?
+      description: Tell us who the project helps, what it does, and what you contributed.
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub repository URL
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: input
+    id: youtube
+    attributes:
+      label: YouTube demo URL
+      placeholder: https://www.youtube.com/watch?v=...
+    validations:
+      required: true

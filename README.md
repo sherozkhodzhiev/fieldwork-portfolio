@@ -17,7 +17,6 @@ Fieldwork presents four projects by Sherozbek Khodzhiev and Nursultan Raimzhanov
 ## Features
 
 - **Project gallery.** Filter by developer and select **Read more** on any card to open its project page.
-- **Live app.** [Open the PERLA virtual fitting room](https://studioperla.live/).
 - **Project demonstrations.** Watch the PERLA, LotusGuard, and Gemi videos on their pages or follow the direct YouTube links.
 - **Developer profiles.** Switch between team members on the About us page to see each person’s portrait, biography, and GitHub profile.
 - **Skills in practice.** Follow any row in the skills table to see the project that uses those technologies or capabilities.

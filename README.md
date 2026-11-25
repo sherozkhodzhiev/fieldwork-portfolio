@@ -47,8 +47,8 @@ We built Fieldwork together for our Front-End Web Application Development final.
 
 | Team member | Contribution to Fieldwork |
 | --- | --- |
-| Sherozbek Khodzhiev | Wrote the website code and designed the page layouts, navigation, and project cards. |
-| Nursultan Raimzhanov | Proposed the idea for Fieldwork and helped plan its features, including how visitors navigate the site and what information each project card shows. |
+| Sherozbek Khodzhiev | Wrote the website code and designed the page layouts. |
+| Nursultan Raimzhanov | Proposed the idea for Fieldwork and planned its features, including the site navigation and project cards. |
 
 ## Challenges & Learning
 
